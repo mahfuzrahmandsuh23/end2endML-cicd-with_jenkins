@@ -26,7 +26,9 @@ sudo usermod -aG docker $USER
 sudo usermod -aG docker jenkins
 
 
-newgrp docker
+newgrp docker 
+
+## sudo snap install aws-cli --classic
 
 sudo apt install awscli -y
 
